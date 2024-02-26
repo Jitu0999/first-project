@@ -1,11 +1,11 @@
 const App = () => {
 
   let x = "Hi.. User  Welcome to our first Project."
-  let array = ["user1", "user2", "user3", "user4", "user5"]
+  let data = "boy";
   return (
     <div>
       {x}
-      {array.map((user)=>{return <h1>{user}</h1>})}
+      {data==="boy"?<h1>Boy</h1>:<h1>Girl</h1>}
     </div>
   )
 }
