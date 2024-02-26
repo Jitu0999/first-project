@@ -1,11 +1,21 @@
+import { useState } from "react";
+import FirstComponent from "./components/FirstComponent";
+
 const App = () => {
 
-  let x = "Hi.. User  Welcome to our first Project."
-  let data = "boy";
+  
+  const [x,setx] = useState(0);
+
+  const btnClick = ()=> {
+    console.log("Clinked");
+    setx(x+1);
+    console.log(x);
+  }
+
   return (
     <div>
-      {x}
-      {data==="boy"?<h1>Boy</h1>:<h1>Girl</h1>}
+      <button onClick={()=>{btnClick()}}>Click Me.</button>
+      <FirstComponent data={x}/>
     </div>
   )
 }
