@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div>
-      Navbar
+      Navbar (It Displays the Navigation Bar.)
     </div>
   )
 }
