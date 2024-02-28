@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <div>
       Banner (It Displays the Banner in 
-      footer.)
+      footer...)
     </div>
   )
 }
