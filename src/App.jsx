@@ -15,6 +15,7 @@ const App = () => {
       <Footer/>
       <Banner/>
       <HowJsxWorks/>
+      
       {x}
     </div>
   )
