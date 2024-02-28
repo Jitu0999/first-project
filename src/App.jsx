@@ -1,6 +1,5 @@
 import Banner from "./components/Banner"
 import Footer from "./components/Footer"
-import HowJsxWorks from "./components/HowJsxWorks"
 import Navbar from "./components/Navbar"
 import Sidebar from "./components/Sidebar"
 
@@ -14,7 +13,6 @@ const App = () => {
       <Sidebar/>
       <Footer/>
       <Banner/>
-      <HowJsxWorks/>
       
       {x}
     </div>
