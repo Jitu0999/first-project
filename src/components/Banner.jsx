@@ -3,6 +3,7 @@ const Banner = () => {
     <div>
       Banner (It Displays the Banner in 
       footer...)
+      
     </div>
   )
 }
