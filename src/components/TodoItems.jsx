@@ -1,4 +1,3 @@
-
 const TodoItems = () => {
   return (
     <div>
