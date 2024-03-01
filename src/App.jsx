@@ -2,6 +2,7 @@ import Banner from "./components/Banner"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Sidebar from "./components/Sidebar"
+import Todo from "./components/Todo"
 
 const App = () => {
 
@@ -13,7 +14,7 @@ const App = () => {
       <Sidebar/>
       <Footer/>
       <Banner/>
-      
+      <Todo/>
       {x}
     </div>
   )
