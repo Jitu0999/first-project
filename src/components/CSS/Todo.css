@@ -7,6 +7,7 @@
     margin-top: 174px;
     display: flex;
     flex-direction: column;
-    
-
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
 }
