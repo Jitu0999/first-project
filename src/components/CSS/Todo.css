@@ -19,5 +19,6 @@
     line-height: 34px;
 }
 . todo-add {
-
+    display: flex;
+    
 }
