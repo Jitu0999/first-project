@@ -20,5 +20,6 @@
 }
 . todo-add {
     display: flex;
-    justify-content: 
+    justify-content: center;
+    align-items: ;
 }
