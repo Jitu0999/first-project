@@ -30,5 +30,7 @@
     border: none;
     outline: none;
     width: 576px;
-    
+    height: 80px;
+    padding-left: 35px;
+    font-size: 20px;
 }
