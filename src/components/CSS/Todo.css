@@ -39,5 +39,6 @@
     background: #ff6739;
     width: 187px;
     height: 80px;
+    display: flex;
     
 }
