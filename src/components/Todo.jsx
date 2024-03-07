@@ -1,7 +1,7 @@
 import'./CSS/Todo.css'
 const Todo = () => {
   return (
-    <div>
+    <div className='todo'>
       
     </div>
   )
